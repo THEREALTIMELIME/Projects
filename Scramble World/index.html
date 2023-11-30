@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <style>
+
+
+    </style>
+
+
+
+</head>
+
+
+<body>
+    <div class="scramble parent">
+        <header>
+            <h1 align="center">Word Scramble Game</h1>
+            <div class="divider"></div>
+        </header>
+        <div class="scrambledWord" align="center" id="scrambledWordId"></div>
+        <div>
+            <div class="hintMessage" id="hintMessageId">Hint: A small bug</div>
+            <div class="message" id="timerId"></div>
+        </div>
+        <div class="textBox">
+            <input type="text" id="typedWordId" name="typedWordId">
+        </div>
+        <div>
+            <button class="button1" id="checkWordButtonId" onclick="checkWord()">Check Word</button>
+            <span><button class="button2" id="refreshWordId" onclick="pickAnotherWord()">Refresh Word</button></span>
+        </div>
+        <div align="center" id="resultMessageId"></div>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
